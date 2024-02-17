@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Quiz</title>
+
+
+     <!--include style.css-->
+     <link rel="stylesheet" href="dist/js/css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+         <div class="quiz">
+            <div class="quiz_header">
+                <div class="quiz_user">
+                    <h4>Welcome! <span class="name"></span></h4>
+            </div>
+            <div class="quiz_timer">
+                <span class="time">00:00</span>
+            </div>
+        </div>
+            <div class="quiz_body">
+                <div id="questions">   
+                    <button class="btn-next" onclick="next()">Next Question</button>
+            </div>
+    </div>
+  </div>
+  
+  <!--quiz.js-->
+  <script src="dist/js/quiz.js"></script>
+
+  <!--userInfo-->
+  <script src="dist/js/userInfo.js"></script>
+
+  <!--timer-->
+  <script src="dist/js/timer.js"></script>
+</body>
+</html>
